@@ -36,7 +36,7 @@ async def main():
                         msg = x.text
                     if msg == "/help":
                         TEXT += f"\n\n**╭⎋ [{ok.first_name}](tg://openmessage?user_id={ok.id})** \n**╰⊚ sᴛᴀᴛᴜs: ᴏғғʟɪɴᴇ ❌**"
-                        await app.send_message(LOG_ID, f"**[{ok.first_name}](tg://openmessage?user_id={ok.id}) off aagiduchii!! Seekiram on pannungaa**")
+                        await app.send_message(LOG_ID, f"**[{ok.first_name}](tg://openmessage?user_id={ok.id}) off aagiduchii!! Seekiram on pannungaa @Soupboy_single @TaeDi_3015 **")
                         await app.read_chat_history(bots)
                     else:
                         TEXT += f"\n\n**╭⎋ [{ok.first_name}](tg://openmessage?user_id={ok.id}) : ᴀʟɪᴠᴇ ✨**\n**╰⊚** "
